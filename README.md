@@ -23,3 +23,7 @@ This repository is a recreation of  https://api.spacexdata.com/v4/starlink API e
     "/v4/starlink/{object_name}" Shows information about satelite named {object_name}
     "/v4/distance/{latitude}+{longitude}+{distance}" Shows information about satelites within a maximum distance "distance" from (latitude, longitude)
 
+    To access any endpoint, once the server is initialized go to any web browser and access "http://localhost:8000/" + any endpoint
+
+       Example: http://localhost:8000/v4/starlink/
+
